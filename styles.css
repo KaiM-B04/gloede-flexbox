@@ -10,8 +10,11 @@ section {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  height: 100svh;
+  min-height: 100svh;
   background-color: beige;
+  padding: 0px 10px;
+  flex-wrap: wrap;
+  gap: 5px;
 }
 
 img {
@@ -27,6 +30,7 @@ img {
   border-radius: 10px;
   padding: 5px;
   height: 300px;
+  min-width: 200px;
 }
 
 .card:hover {
@@ -50,6 +54,7 @@ h1 {
   background-size: 600px;
   justify-content: space-evenly;
   gap: 100px;
+  height: 300px;
 }
 
 #gaming-text {
